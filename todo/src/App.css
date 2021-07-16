@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWDWAF0BMffrdgUnDav0U4iLI2rgnSlKzPnQ&usqp=CAU"); */
+  margin-top: 300px;
+  color: #fff;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(red, yellow);
+}
+button {
+  justify-content: space-around;
+  font-size: 30px;
+  padding-top: 40px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: rgb(145, 196, 211);
+  box-shadow: 12px 15px;
+  cursor: pointer;
+  color: rgb(36, 33, 33);
+}
+
+.App {
+  font-size: 30px;
+}
+
+.inputList {
+  border-width: 4px;
+  border-color: rgb(64, 66, 65);
+  font-size: 30px;
+  padding-left: 70px;
+}
+
+.Todo {
+  text-shadow: 2px 2px red;
+  padding-top: 40px;
+  font-size: 35px;
+  color: black;
+  font-style: italic;
+}
