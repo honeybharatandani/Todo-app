@@ -6,20 +6,22 @@ body {
   height: 800px;
   background-repeat: no-repeat;
   background-image: linear-gradient(red, yellow);
+  position: sticky;
 }
-button {
+/* button {
   justify-content: space-around;
   font-size: 30px;
-  padding-top: 40px;
+  padding-top: 10px;
   border-radius: 8px;
-}
+  position: fixed;
+} */
 
-button:hover {
+/* button:hover {
   background-color: rgb(145, 196, 211);
   box-shadow: 12px 15px;
   cursor: pointer;
   color: rgb(36, 33, 33);
-}
+} */
 
 .App {
   font-size: 30px;
@@ -30,6 +32,11 @@ button:hover {
   border-color: rgb(64, 66, 65);
   font-size: 30px;
   padding-left: 70px;
+}
+
+.clear {
+  font-weight: bold;
+  margin-left: 60px;
 }
 
 .Todo {
