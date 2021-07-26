@@ -1,13 +1,11 @@
 import React from "react";
 
-export default function Input({ changeHandler, text, clickHandler }) {
+export default function Input({ handleDelete, changeHandler, text, clickHandler }) {
   return (
-    <div>
-      <button onClick={() => clickHandler(text)}>Add Todo-List</button>
-     <br />
-      <input className="inputList" onChange={changeHandler} value={text} />
-      <button className="clear">Clear</button>
-
+    <div>     
+      <input className="inputList" placeholder="Enter a To-do" onChange={changeHandler} value={text} />
+     <br/>
+      <button onClick={() => clickHandler(text)}>Add</button>
     </div>
   );
 }
