@@ -1,8 +1,8 @@
 body {
   text-align: center;
   color: #fff;
-  margin: auto;
-  background-image: linear-gradient(rgb(146, 199, 219), yellow);
+  justify-content: center;
+  background-image: linear-gradient(rgb(51, 53, 54), rgb(204, 204, 196));
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 .App {
   width: 25%;
   height: 100vh;
-  box-shadow: 25px 65px 85px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 25px 65px 85px -5px rgba(196, 95, 95, 0.5);
   font-size: 30px;
   margin-left: 500px;
 }
@@ -23,12 +23,13 @@ h1 {
   border-color: rgb(216, 130, 49);
   font-size: 20px;
   padding-left: 40px;
-  border-radius: 0.5rem;
+  border: 4px double;
+  margin-top: 50px;
 }
 
 .Todo {
-  text-shadow: 2px 2px red;
-  color: black;
+  border-radius: 50px;
+  color: rgb(20, 18, 18);
   font-style: italic;
 }
 
@@ -39,9 +40,8 @@ button {
 
 button {
   background: rgba(84, 192, 219, 0.5);
-  border: 3px solid #000;
+  border: 2px solid #000;
   color: #000;
-  border-radius: 4px;
   transition: 0.5s;
   outline: none;
 }
@@ -62,7 +62,7 @@ button:hover {
     width: 75%;
     height: 100vh;
     box-shadow: 25px 65px 85px -5px rgba(0, 0, 0, 0.5);
-    background-image: linear-gradient(rgb(49, 50, 51), rgb(47, 102, 204));
+    background-image: linear-gradient(rgb(90, 92, 95), rgb(109, 112, 117));
   }
 
   button {
