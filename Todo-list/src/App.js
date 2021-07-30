@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Input from "./Input";
 import Todolist from "./Todolist";
 import "./App.css";
-
+// import logo from './logo.png';
 
 export default function App() {
 
@@ -31,15 +31,15 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Todo-List</h1>
-      {/* calling events in jsx syntax */}
+            {/* <img className="Logo" src={logo} alt="Logo" /> */}
+          {/* calling events in jsx syntax */}
       <Input
         changeHandler={changeHandler}
         text={text}
         clickHandler={clickHandler}
       />
       <button className="delete" onClick={() => handleDelete(text)}>Delete</button>
-      <Todolist list={list}  />
+      <Todolist list={list} />
     </div>
   );
 }
