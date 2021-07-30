@@ -7,5 +7,6 @@ export default function Input({ handleDelete, changeHandler, text, clickHandler 
      <br/>
       <button onClick={() => clickHandler(text)}>Add</button>
     </div>
+    
   );
 }
