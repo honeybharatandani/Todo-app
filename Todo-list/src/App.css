@@ -1,7 +1,7 @@
 body {
   text-align: center;
   color: #fff;
-  background-repeat: no-repeat;
+  margin: auto;
   background-image: linear-gradient(rgb(146, 199, 219), yellow);
 }
 
@@ -62,6 +62,7 @@ button:hover {
     width: 75%;
     height: 100vh;
     box-shadow: 25px 65px 85px -5px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgb(49, 50, 51), rgb(47, 102, 204));
   }
 
   button {
