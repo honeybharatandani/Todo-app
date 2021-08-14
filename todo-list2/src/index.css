@@ -82,7 +82,8 @@ ol li {
 .todo_style {
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
+  padding-top: 30px;
+  padding-left: 40px;
 }
 
 .todo_style .fa-times {
@@ -91,9 +92,9 @@ ol li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8566aa;
+  background-color: #1c1b1d;
   border-radius: 50%;
-  margin: 0 15px 0 35px;
+  margin: 0 15px 10 35px;
   color: antiquewhite;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
