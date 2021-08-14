@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 .center_div {
   background-color: #9f9ca1;
   border-width: 2px solid;
@@ -72,14 +77,12 @@ ol li {
   color: rgb(40, 42, 44);
   text-transform: capitalize;
   flex-direction: row;
-  border: 2px;
 }
 
 .todo_style {
   display: flex;
-  margin-right: 200px;
-  justify-content: left;
-  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
 }
 
 .todo_style .fa-times {
@@ -126,9 +129,5 @@ ol li {
 
   input {
     width: 55%;
-  }
-
-  ol li {
-    flex-direction: column;
   }
 }
